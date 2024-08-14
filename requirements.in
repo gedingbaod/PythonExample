@@ -1,0 +1,16 @@
+# requirements.in
+# pip-compile requirements.in
+# 用户根目录下创建pip.ini
+#[global]
+#index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+Flask
+requests
+matplotlib
+PyQt6
+tkinter
+numpy
+pypinyin
+pymysql
+redis
+datetime
+configparser

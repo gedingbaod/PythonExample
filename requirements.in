@@ -1,13 +1,18 @@
+# python.exe -m pip install --upgrade pip
 # requirements.in
+# pip install pip-tools
 # pip-compile requirements.in
 # 用户根目录下创建pip.ini
 #[global]
 #index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+
+# pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ matplotlib
+
+
 Flask
 requests
 matplotlib
-PyQt6
-tkinter
+PyQt5
 numpy
 pypinyin
 pymysql
